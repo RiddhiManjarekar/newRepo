@@ -8,7 +8,7 @@ import ProductDetails from "./ProductDetails";
 
 function App() {
   return (
-    <Routes>  {/* ✅ No BrowserRouter here */}
+    <Routes>  
       <Route path="/" element={<Home />} />
       <Route path="/user-login" element={<UserLogin />} />
       <Route path="/admin-login" element={<AdminLogin />} />
